@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!-- 
+     Sample RDF from the PRISM specification - section 2.2
+     Version 1.0; April 9, 2001
+  -->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://somewhere/LoydaPineda/">
+    <vcard:EMAIL>
+      <vcard:internet>
+        <rdf:value>loyda@somewhere.com</rdf:value>
+      </vcard:internet>
+    </vcard:EMAIL>
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Given>Loyda</vcard:Given>
+      <vcard:Family>Pineda</vcard:Family>
+    </vcard:N>
+    <vcard:FN>Loyda Pineda</vcard:FN>
+  </rdf:Description>
+  
+</rdf:RDF>
+
+
